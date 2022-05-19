@@ -1,0 +1,144 @@
+@charset "utf-8";
+    :root{
+        --cor0:#e51400;
+        --cor1:#00f0d0;
+        --cor2:#12bf34;
+        --cor3:hsla(188, 68%, 42%, 0.893);
+        --cor4:#f1f2f7f4;
+        --cor5:#b8baca;
+        
+        --font-padrao:arial,verdana,helvetica,sans-serif;
+    }
+    body{
+        background-color:var(--cor1);
+    }
+    main p {
+        margin: 15px 0px;
+        text-align: justify;
+    }
+    header{
+        background-image:linear-gradient(to bottom ,var(--cor1),var(--cor3)) ;
+        min-height: 80px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    header >h1{
+        color:rgb(0, 55, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2cm;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 0px rgba(26, 29, 28, 0.74);
+        
+
+    }
+    header > p {
+        font-size: 0.8cm;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(77, 13, 229);
+        max-width: 700px;
+        padding: right 10px ;
+        padding-left: 10px;
+        margin: auto;
+        text-shadow: 2px 2px 0px rgba(26, 29, 28, 0.74);
+    }
+    nav {
+        background-color: rgb(45, 197, 141);
+        padding: 10px;
+        box-shadow:0px 7px 7px rgba(0, 0, 0, 0.192);
+
+    }
+    nav >a {
+        color: rgb(15, 13, 13);
+        padding: 10px;
+        border-radius:  5px ;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: .5s;
+    }
+    nav > a:hover {
+        background-color: #bde6e66e;
+        color: #0ff;;
+    }
+
+    main{
+        background-color:var(--cor4);
+        min-width: 300px;
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.684);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+
+    main h1{
+        background-color:var(--cor2);
+        border-radius: 10px;
+    }
+    main h1{
+        background-color: var(--cor2);
+        border-radius: 10px;
+    }
+    main h2{
+        background-color: var(--cor2);
+        border-radius: 10px;
+    }
+    main h2{
+        background-color: var(--cor2);
+        border-radius: 10px;
+    }
+    aside{
+        background-color: #00f0d0; 
+    
+    }
+    main h3{
+        background-color: var(--cor2);
+        border-radius: 10px;
+    }
+    main p {
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        font-size: 1em;
+        line-height: 2em;
+    }
+    main strong{
+        color: var(--cor1);
+        font-weight: bolder;
+    }
+    main a {
+        text-decoration: none;
+        font-weight: bold;
+        color: var(--cor4);
+        background-color: var(--cor5);
+        padding: 2px 6px;
+    }
+    main a:hover {
+        text-decoration: underline;
+        color: rgb(2, 14, 27);
+    }
+    
+    main img{
+        width:100% ;
+    }
+    div.video{
+        background-color: dodgerblue;
+        margin: 0px -20px 30px -20px;
+        padding: 20px;
+        padding-bottom: 50%;
+        position: relative;
+    }
+    div .video > iframe {
+        position: absolute;
+        top:5% ;
+        left: 5%;
+        width:150% ;
+        height:150% ;
+    }
+    footer{
+        background-color:rgba(110, 230, 11, 0.926);
+        border-radius: 10px;
+        text-align: center;
+    }
+        

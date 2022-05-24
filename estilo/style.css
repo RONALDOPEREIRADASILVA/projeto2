@@ -17,7 +17,7 @@
         text-align: justify;
     }
     header{
-        background-image:linear-gradient(to bottom ,var(--cor1),var(--cor3)) ;
+        background-image: linear-gradient(to bottom , var(--cor1),var(--cor3));
         min-height: 80px;
         text-align: center;
         padding-top: 40px;

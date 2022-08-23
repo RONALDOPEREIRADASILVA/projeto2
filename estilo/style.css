@@ -128,13 +128,16 @@
         margin: 0px -10px 20px -10px;
         padding: 20px;
         padding-bottom: 10%;
-        position: relative;
+        
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
     }
     div .video > iframe {
         position: absolute;
         top:10% ;
         left: 10%;
-        width:150% ;
+        width:150px;
         height:150% ;
     }
 

@@ -140,10 +140,34 @@
         width:150px;
         height:150% ;
     }
+    article >p {
+        text-align: center;
+    }
 
+    footer img{
+        width: 30px;
+        height: 30px;
+        border-radius: 60px;
+    
+    }
     footer{
+        display:flex ;
+        justify-content:center;
+    }
+    footer a {
+       margin: 20px;
+       text-align: center; 
+    }
+    .container{
+        padding: 0px 50px;
+    }
+    nav a:hover{
+        color: chartreuse;
+    } 
+    footer {
+        display: flex;
+        justify-content: center;
         background-color:rgba(110, 230, 11, 0.926);
         border-radius: 10px;
         text-align: center;
-    }
-        
+    }   

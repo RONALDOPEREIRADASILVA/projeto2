@@ -116,10 +116,16 @@
         text-indent: 30px;
         font-size: 1em;
         line-height: 2em;
+        font-family: Arial, Helvetica, sans-serif;
     }
     main strong{
         color: var(--cor1);
         font-weight: bolder;
+    }
+    main li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+
     }
     main a {
         text-decoration: none;
@@ -139,22 +145,25 @@
     div.video{
         background-color: dodgerblue;
         border-radius: 10px;
-        margin: 0px -10px 20px -10px;
+        margin: 0px -20px 20px -20px;
         padding: 20px;
         padding-bottom: 10%;
-        
-        text-align: center;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        
+        position: relative;
     }
     div .video > iframe {
         position: absolute;
-        top:10% ;
-        left: 10%;
-        width:150px;
-        height:150% ;
+        top:5% ;
+        left: 5%;
+        width:90%;
+        height:90% ;
     }
     article >p {
+        text-align: center;
+    }
+    article > h1, h2 ,h3{
         text-align: center;
     }
 

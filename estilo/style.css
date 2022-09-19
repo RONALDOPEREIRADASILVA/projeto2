@@ -21,6 +21,7 @@
         min-height: 80px;
         text-align: center;
         padding-top: 40px;
+        border-radius: 10px;
     }
     header >h1{
         color:rgb(228, 230, 237);
@@ -29,7 +30,6 @@
         margin-bottom: 20px;
         text-shadow: 2px 2px 0px rgba(26, 29, 28, 0.74);
         
-
     }
     header > p {
         font-size: 0.8cm;
@@ -41,11 +41,12 @@
         margin: auto;
         text-shadow: 2px 2px 0px rgba(26, 29, 28, 0.74);
     }
+    
     nav {
         background-color: rgb(45, 197, 141);
         padding: 10px;
         box-shadow:0px 7px 7px rgba(0, 0, 0, 0.192);
-
+        border-radius: 10px;
     }
     nav >a {
         color: rgb(15, 13, 13);
@@ -59,7 +60,20 @@
         background-color: #bde6e66e;
         color: #0ff;;
     }
-
+    section{
+        background: white;
+        border-radius: 9px;
+        padding: 15px;
+        width: 600px;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.467);
+    }
+    div{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8cm;
+        padding:8px ;
+        text-align: center;
+    }
     main{
         background-color:var(--cor4);
         min-width: 300px;
@@ -69,7 +83,7 @@
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.684);
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-
+        border-radius: 10px;
     }
 
     main h1{
